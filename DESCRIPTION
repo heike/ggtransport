@@ -1,0 +1,19 @@
+Package: ggtransport
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Jane", "Doe",
+      email = "jane@example.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Functions for drawing bird-eye view sketches of traffic-related 
+    situations.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2 (>= 3.5.2)
+RoxygenNote: 7.3.2
