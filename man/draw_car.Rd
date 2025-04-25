@@ -26,5 +26,5 @@ Draw a car
 \examples{
 # example code
 draw_multi_lane_road(road_length = 50, lanes_per_direction = 1, lane_width = 12) +
-   draw_car(x = -10, y = -6, color = "white", size=1) + draw_car(x = 10, y = 6, direction = -180)
+   draw_car(x = -10, y = -6, color = "white", size=1.2) + draw_car(x = 10, y = 6, direction = -180)
 }

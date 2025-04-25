@@ -7,6 +7,7 @@
 #' @param size numeric value, used as a scalar to modify the average width of a US car (height is scaled proportionally).
 #' @export
 #' @returns a ggplot2 layer with car images drawn at the specified locations
+#' @importFrom ggimage geom_image
 #' @examples
 #' # example code
 #' draw_multi_lane_road(road_length = 50, lanes_per_direction = 1, lane_width = 12) +
