@@ -46,3 +46,11 @@ draw_multi_lane_road(road_length = 50, lanes_per_direction = 1, lane_width = 12)
   draw_car(x = 10, y = 6, direction = -180)
 ```
 
+
+How far does a car travel at a specified speed?
+
+```{r}
+draw_multi_lane_road(road_length = 50, lanes_per_direction = 1, lane_width = 12) +
+  
+  draw_car(x = -10, y = -6) 
+```

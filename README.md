@@ -37,3 +37,13 @@ draw_multi_lane_road(road_length = 50, lanes_per_direction = 1, lane_width = 12)
 ```
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
+
+How far does a car travel at a specified speed?
+
+``` r
+draw_multi_lane_road(road_length = 50, lanes_per_direction = 1, lane_width = 12) +
+  
+  draw_car(x = -10, y = -6) 
+```
+
+<img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
